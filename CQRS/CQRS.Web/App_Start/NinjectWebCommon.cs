@@ -1,5 +1,5 @@
 // to test this git stuff and to ask shane: is this a better way of injecting the dependencies
-// let's try this.  
+// let's try this.  test3
 [assembly: WebActivator.PreApplicationStartMethod(typeof(CQRS.Web.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(CQRS.Web.App_Start.NinjectWebCommon), "Stop")]
 
