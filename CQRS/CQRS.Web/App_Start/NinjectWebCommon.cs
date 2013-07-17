@@ -1,10 +1,5 @@
 // to test this git stuff and to ask shane: is this a better way of injecting the dependencies
-<<<<<<< HEAD
-// let's try this.  test4
-=======
-// let's try this.  test3
-// added on the test2
->>>>>>> origin/test2
+// let's try this.  fixing issue #3
 [assembly: WebActivator.PreApplicationStartMethod(typeof(CQRS.Web.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(CQRS.Web.App_Start.NinjectWebCommon), "Stop")]
 
